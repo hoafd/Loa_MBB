@@ -1,0 +1,15 @@
+# Chỉ cần bỏ qua thư mục build, không commit vào git
+venv/
+build/
+dist/
+*.spec
+__pycache__/
+*.pyc
+
+# File .env chứa thông tin nhạy cảm - KHÔNG commit lên git
+.env
+# Nhưng file mẫu thì được phép commit
+!.env.example
+*.zip
+# Thư mục dự án (Nếu có)
+MB_Bank_Alert/

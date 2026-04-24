@@ -1,0 +1,4 @@
+paho-mqtt
+pygame
+python-dotenv
+pyinstaller
